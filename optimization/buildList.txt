@@ -1,0 +1,2092 @@
+{
+   "buildlistValid": 1,
+   "game": "sc2-hots-protoss",
+   "initialUnits": {
+      "probe": [
+         "init_probe_01",
+         "init_probe_02",
+         "init_probe_03",
+         "init_probe_04",
+         "init_probe_05",
+         "init_probe_06"
+      ],
+      "nexus": [
+         "init_nexus"
+      ]
+   },
+   "messages": [
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-start"
+            }
+         ],
+         "time": 1,
+         "status": {
+            "workers": {
+               "minerals": 6,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 7,
+               "supply": 10,
+               "minerals": 4,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-end",
+               "producedIDs": [
+                  "probe7"
+               ]
+            }
+         ],
+         "time": 18,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 7,
+               "supply": 10,
+               "minerals": 75,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 23,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 7,
+               "supply": 10,
+               "minerals": 0,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-start"
+            }
+         ],
+         "time": 34,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 8,
+               "supply": 10,
+               "minerals": 4,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "pylon1"
+               ]
+            }
+         ],
+         "time": 48,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 8,
+               "supply": 18,
+               "minerals": 72,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-end",
+               "producedIDs": [
+                  "probe8"
+               ]
+            },
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-start"
+            }
+         ],
+         "time": 51,
+         "status": {
+            "workers": {
+               "minerals": 8,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 18,
+               "minerals": 37,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "init_nexus",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 52,
+         "status": {
+            "workers": {
+               "minerals": 8,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 18,
+               "minerals": 42,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-end",
+               "producedIDs": [
+                  "probe9"
+               ]
+            },
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-start"
+            }
+         ],
+         "time": 63,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 10,
+               "supply": 18,
+               "minerals": 54,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-end",
+               "producedIDs": [
+                  "probe:"
+               ]
+            }
+         ],
+         "time": 76,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 10,
+               "supply": 18,
+               "minerals": 136,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 78,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 10,
+               "supply": 18,
+               "minerals": 0,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "gateway1"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 143,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 12,
+               "supply": 18,
+               "minerals": 355,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 144,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 12,
+               "supply": 18,
+               "minerals": 362,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 145,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 12,
+               "supply": 18,
+               "minerals": 219,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 146,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 12,
+               "supply": 18,
+               "minerals": 126,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 150,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 12,
+               "supply": 18,
+               "minerals": 4,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot1"
+               ]
+            },
+            {
+               "name": "pylon",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "pylon2"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 171,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 14,
+               "supply": 26,
+               "minerals": 51,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 172,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 14,
+               "supply": 26,
+               "minerals": 58,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot2"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 199,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 16,
+               "supply": 26,
+               "minerals": 147,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 200,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 16,
+               "supply": 26,
+               "minerals": 154,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "gateway2"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 210,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 18,
+               "supply": 26,
+               "minerals": 124,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "gateway3"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway3",
+               "type": "build-start"
+            }
+         ],
+         "time": 215,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 20,
+               "supply": 26,
+               "minerals": 59,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 221,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 20,
+               "supply": 26,
+               "minerals": 1,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway3",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 223,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 20,
+               "supply": 26,
+               "minerals": 15,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot3"
+               ]
+            }
+         ],
+         "time": 227,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 20,
+               "supply": 26,
+               "minerals": 43,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 236,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 22,
+               "supply": 26,
+               "minerals": 6,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway3",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot5"
+               ]
+            }
+         ],
+         "time": 243,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 22,
+               "supply": 26,
+               "minerals": 55,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "pylon3"
+               ]
+            }
+         ],
+         "time": 246,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 22,
+               "supply": 34,
+               "minerals": 76,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot4"
+               ]
+            }
+         ],
+         "time": 248,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 22,
+               "supply": 34,
+               "minerals": 90,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 250,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 24,
+               "supply": 34,
+               "minerals": 4,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway3",
+               "type": "build-start"
+            }
+         ],
+         "time": 264,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 26,
+               "supply": 34,
+               "minerals": 2,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway3",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 267,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 26,
+               "supply": 34,
+               "minerals": 23,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot6"
+               ]
+            }
+         ],
+         "time": 274,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 26,
+               "supply": 34,
+               "minerals": 72,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 278,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 28,
+               "supply": 34,
+               "minerals": 0,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot7"
+               ]
+            }
+         ],
+         "time": 288,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 28,
+               "supply": 34,
+               "minerals": 70,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway3",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot8"
+               ]
+            }
+         ],
+         "time": 292,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 28,
+               "supply": 34,
+               "minerals": 98,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 293,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 30,
+               "supply": 34,
+               "minerals": 5,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway3",
+               "type": "build-start"
+            }
+         ],
+         "time": 307,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 32,
+               "supply": 34,
+               "minerals": 3,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway3",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 312,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 32,
+               "supply": 34,
+               "minerals": 38,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot9"
+               ]
+            }
+         ],
+         "time": 316,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 32,
+               "supply": 34,
+               "minerals": 66,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 321,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 34,
+               "supply": 34,
+               "minerals": 1,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot:"
+               ]
+            }
+         ],
+         "time": 331,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 34,
+               "supply": 34,
+               "minerals": 71,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway3",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot;"
+               ]
+            }
+         ],
+         "time": 335,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 34,
+               "supply": 34,
+               "minerals": 99,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot<"
+               ]
+            }
+         ],
+         "time": 359,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 34,
+               "supply": 34,
+               "minerals": 267,
+               "vespene": 0
+            }
+         }
+      }
+   ]
+}
+{
+   "buildlistValid": 1,
+   "game": "sc2-hots-protoss",
+   "initialUnits": {
+      "probe": [
+         "init_probe_01",
+         "init_probe_02",
+         "init_probe_03",
+         "init_probe_04",
+         "init_probe_05",
+         "init_probe_06"
+      ],
+      "nexus": [
+         "init_nexus"
+      ]
+   },
+   "messages": [
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-start"
+            }
+         ],
+         "time": 1,
+         "status": {
+            "workers": {
+               "minerals": 6,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 7,
+               "supply": 10,
+               "minerals": 4,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-end",
+               "producedIDs": [
+                  "probe7"
+               ]
+            },
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-start"
+            }
+         ],
+         "time": 18,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 8,
+               "supply": 10,
+               "minerals": 25,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 34,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 8,
+               "supply": 10,
+               "minerals": 4,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-end",
+               "producedIDs": [
+                  "probe8"
+               ]
+            }
+         ],
+         "time": 35,
+         "status": {
+            "workers": {
+               "minerals": 8,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 8,
+               "supply": 10,
+               "minerals": 8,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-start"
+            }
+         ],
+         "time": 43,
+         "status": {
+            "workers": {
+               "minerals": 8,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 10,
+               "minerals": 3,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "pylon1"
+               ]
+            }
+         ],
+         "time": 59,
+         "status": {
+            "workers": {
+               "minerals": 8,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 18,
+               "minerals": 93,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "probe",
+               "producerID": "init_nexus",
+               "type": "build-end",
+               "producedIDs": [
+                  "probe9"
+               ]
+            }
+         ],
+         "time": 60,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 18,
+               "minerals": 98,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 69,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 18,
+               "minerals": 5,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 84,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 18,
+               "minerals": 0,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 108,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 18,
+               "minerals": 1,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "pylon2"
+               ]
+            }
+         ],
+         "time": 109,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 9,
+               "supply": 26,
+               "minerals": 7,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "gateway1"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 134,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 11,
+               "supply": 26,
+               "minerals": 65,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 135,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 11,
+               "supply": 26,
+               "minerals": 71,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 140,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 11,
+               "supply": 26,
+               "minerals": 2,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot1"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 162,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 13,
+               "supply": 26,
+               "minerals": 41,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 163,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 13,
+               "supply": 26,
+               "minerals": 47,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "pylon3"
+               ]
+            }
+         ],
+         "time": 165,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 13,
+               "supply": 34,
+               "minerals": 60,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "gateway",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "gateway2"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 173,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 15,
+               "supply": 34,
+               "minerals": 10,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway2",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 174,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 15,
+               "supply": 34,
+               "minerals": 17,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot2"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 190,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 17,
+               "supply": 34,
+               "minerals": 17,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 191,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 17,
+               "supply": 34,
+               "minerals": 24,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot3"
+               ]
+            }
+         ],
+         "time": 201,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 17,
+               "supply": 34,
+               "minerals": 87,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 204,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 19,
+               "supply": 34,
+               "minerals": 6,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot4"
+               ]
+            }
+         ],
+         "time": 218,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 19,
+               "supply": 34,
+               "minerals": 94,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 219,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 21,
+               "supply": 34,
+               "minerals": 0,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 223,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 21,
+               "supply": 34,
+               "minerals": 25,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot5"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 242,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 23,
+               "supply": 34,
+               "minerals": 45,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot6"
+               ]
+            }
+         ],
+         "time": 247,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 23,
+               "supply": 34,
+               "minerals": 77,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 251,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 25,
+               "supply": 34,
+               "minerals": 2,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway1",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 267,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 25,
+               "supply": 34,
+               "minerals": 103,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot7"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 280,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 27,
+               "supply": 34,
+               "minerals": 84,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot8"
+               ]
+            }
+         ],
+         "time": 282,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 27,
+               "supply": 34,
+               "minerals": 97,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 283,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 29,
+               "supply": 34,
+               "minerals": 3,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot9"
+               ]
+            },
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-start"
+            }
+         ],
+         "time": 318,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 31,
+               "supply": 34,
+               "minerals": 124,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot:"
+               ]
+            },
+            {
+               "name": "chronoboost",
+               "type": "special",
+               "targetBuilding": "gateway2",
+               "triggeredBy": "init_nexus"
+            }
+         ],
+         "time": 319,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 31,
+               "supply": 34,
+               "minerals": 130,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-start"
+            }
+         ],
+         "time": 320,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 33,
+               "supply": 34,
+               "minerals": 36,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "init_probe_01",
+               "type": "build-start"
+            }
+         ],
+         "time": 331,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 33,
+               "supply": 34,
+               "minerals": 6,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway2",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot;"
+               ]
+            }
+         ],
+         "time": 346,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 33,
+               "supply": 34,
+               "minerals": 100,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "pylon",
+               "producerID": "probe1",
+               "type": "build-end",
+               "producedIDs": [
+                  "pylon4"
+               ]
+            }
+         ],
+         "time": 356,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 33,
+               "supply": 42,
+               "minerals": 163,
+               "vespene": 0
+            }
+         }
+      },
+      {
+         "events": [
+            {
+               "name": "zealot",
+               "producerID": "gateway1",
+               "type": "build-end",
+               "producedIDs": [
+                  "zealot<"
+               ]
+            }
+         ],
+         "time": 358,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "supply-used": 33,
+               "supply": 42,
+               "minerals": 176,
+               "vespene": 0
+            }
+         }
+      }
+   ]
+}
