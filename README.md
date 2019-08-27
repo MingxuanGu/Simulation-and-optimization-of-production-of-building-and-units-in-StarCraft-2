@@ -13,7 +13,7 @@ depends on the map, the race the participants have chosen, and also the opponent
 Part1:
 
   Input: Build lists, Output: Json File
-  1) decide if build list is valid
+  • decide if build list is valid
   • if it is valid:
   • write detailed log in JSON format
 
