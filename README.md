@@ -10,13 +10,16 @@ later income, developing straightly new technology to build better units, or qui
 as possible in order to rush the enemy, i. e. to attack as soon as possible. The best opening strategy
 depends on the map, the race the participants have chosen, and also the opponents’ strategies.
 
-Part1: 
-Input: Build lists, Output: Json File
-1) decide if build list is valid
-• if it is valid:
-• write detailed log in JSON format
+Part1:
 
-Part2: write a build list optimizer using a genetic algorithm
+  Input: Build lists, Output: Json File
+  1) decide if build list is valid
+  • if it is valid:
+  • write detailed log in JSON format
+
+Part2: 
+
+  write a build list optimizer using a genetic algorithm
 two optimization scenarios:
-• build as many units as possible in given time
-• build a certain (advanced) unit / building as fast as possible
+  • build as many units as possible in given time
+  • build a certain (advanced) unit / building as fast as possible
