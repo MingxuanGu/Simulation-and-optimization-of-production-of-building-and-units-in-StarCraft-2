@@ -20,6 +20,7 @@ Part1:
 Part2: 
 
   write a build list optimizer using a genetic algorithm
-two optimization scenarios:
+ 
+There are two optimization scenarios:
   • build as many units as possible in given time
   • build a certain (advanced) unit / building as fast as possible
