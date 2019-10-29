@@ -1,4 +1,0 @@
-string
-
-	first: 	43 sec
-	second:	44 sec
